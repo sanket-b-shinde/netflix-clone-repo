@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="overlay"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg px-5 py-3">
+    <a class="navbar-brand" href="#">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt=""class="logo">
+    </a>
+    <div class="ms-auto d-flex gap-2">
+      <div class="dropdown">
+        <button class="btn btn-outline-light dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          🌐 English
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item active" href="#">English</a></li>
+          <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+        </ul>
+      </div>
+      <a href="login.html">
+      <button class="btn btn-danger">Sign In</button>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content text-white text-center">
+    <h1 class="display-5 fw-bold">Unlimited movies, TV shows and more</h1>
+    <p class="fs-4 mt-3">Starts at ₹149. Cancel at any time.</p>
+    <p class="fs-5">Ready to watch? Enter your email to create or restart your membership.</p>
+
+    <form class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
+      <input type="email" class="form-control form-control-lg" placeholder="Email address" style="max-width: 350px;"/>
+      <button class="btn btn-danger btn-lg">Get Started ></button>
+    </form>
+  </div>
+  
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+</body>
+</html>
