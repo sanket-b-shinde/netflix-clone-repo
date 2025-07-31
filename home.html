@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone Hero</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="netflix-header">
+  <div class="logo">NETFLIX</div>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">TV Shows</a>
+    <a href="#">Movies</a>
+    <a href="#">Games</a>
+    <a href="#">New & Popular</a>
+    <a href="#">My List</a>
+    <a href="#">Languages</a>
+  </nav>
+  <div class="header-right">
+    <span class="icon">&#128269;</span>
+    <span class="children">Children</span>
+    <div class="notification">&#128276;<span class="badge">!</span></div>
+    <div class="profile-dropdown">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" class="profile-icon" alt="Profile">
+      <div class="dropdown-content">
+        <a href="#">Manage Profile</a>
+        <a href="#">Account</a>
+        <a href="#">Logout</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="hero-container">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title"><span style="color: red;">N</span> SERIES <br /><span style="color: red;">Sacred Games</span></h1>
+    <div class="hero-buttons">
+      <button>▶ Play</button>
+      <button class="info-btn">ℹ More Info</button>
+    </div>
+  </div>
+</div>
+
+<div class="carousel-container">
+  <button class="scroll-btn left" onclick="scrollCarousel(-1)">&#10094;</button>
+  <div id="movieCarousel" class="carousel">
+    <!-- Movie Card -->
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="Movie 1">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/s1xnjbOIQtwGObPnydTebp74G2c.jpg" alt="Movie 2">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg" alt="Movie 3">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="Movie 1">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/s1xnjbOIQtwGObPnydTebp74G2c.jpg" alt="Movie 2">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg" alt="Movie 3">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="Movie 1">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/s1xnjbOIQtwGObPnydTebp74G2c.jpg" alt="Movie 2">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg" alt="Movie 3">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="Movie 1">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/s1xnjbOIQtwGObPnydTebp74G2c.jpg" alt="Movie 2">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg" alt="Movie 3">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg" alt="Movie 1">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/s1xnjbOIQtwGObPnydTebp74G2c.jpg" alt="Movie 2">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="movie-preview">
+      <img src="https://image.tmdb.org/t/p/w300/8YFL5QQVPy3AgrEQxNYVSgiPEbe.jpg" alt="Movie 3">
+      <video muted loop preload="none">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- Add more movie-preview as needed -->
+  </div>
+  <button class="scroll-btn right" onclick="scrollCarousel(1)">&#10095;</button>
+</div>
+
+<script>
+  // Scroll functionality
+  function scrollCarousel(direction) {
+    const carousel = document.getElementById("movieCarousel");
+    const scrollAmount = 300;
+    carousel.scrollBy({
+      left: direction * scrollAmount,
+      behavior: "smooth"
+    });
+  }
+
+  // Play/Pause videos on hover
+  document.querySelectorAll('.movie-preview').forEach(preview => {
+    const video = preview.querySelector('video');
+    preview.addEventListener('mouseenter', () => {
+      video.currentTime = 0;
+      video.play();
+    });
+    preview.addEventListener('mouseleave', () => {
+      video.pause();
+      video.currentTime = 0;
+    });
+  });
+</script>
+
+</body>
+</html>
